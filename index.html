@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio-Dinamico</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Alexis Lopez</h1>
+                <p>Desarrolador web</p>
+
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="" class="Activo">Todos</a>
+                <a href="" class="">planta</a>
+                <a href="">fuego</a>
+                <a href="">electrico</a>
+                <a href="">agua</a>
+            </div>
+        </header>
+        <section class="grid" id="grid">
+            <div class="item" 
+            data-categoria="planta" 
+            data-etiquetas="planta bulbasaur"
+            data-descripcion="1.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="planta" 
+            data-etiquetas="planta ivysaur"
+            data-descripcion="2.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="planta" 
+            data-etiquetas="plata venusaur"
+            data-descripcion="3.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="fuego" 
+            data-etiquetas="fuego charmander"
+            data-descripcion="4.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="fuego" 
+            data-etiquetas="fuego charmeleon"
+            data-descripcion="5.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="fuego" 
+            data-etiquetas="fuego charizard"
+            data-descripcion="6.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="agua" 
+            data-etiquetas="agua squirtle"
+            data-descripcion="7.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="agua" 
+            data-etiquetas="agua Wartotle"
+            data-descripcion="8.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="agua" 
+            data-etiquetas="agua blastoise" 
+            data-descripcion="9.- Lorem ipsum dolor sit amet consectetur.
+                ">
+                <div class="item-contenido">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="eletrico" 
+            data-etiquetas="eletrico pikachu" 
+            data-descripcion="9.- Lorem ipsum dolor sit amet consectetur.
+                ">
+                <div class="item-contenido">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="eletrico" 
+            data-etiquetas="eletrico raichu" 
+            data-descripcion="9.- Lorem ipsum dolor sit amet consectetur.
+                ">
+                <div class="item-contenido">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png" alt="">
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="overlay " id="overlay">
+            <div class="contenedor-img">
+                <buttom id="btn-cerrar-popup"> <i class="fas fa-times"></i></buttom>
+                <img src="" alt="">
+                <p class="descripcion"></p>
+            </div>
+        </section>
+
+        <footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="http://www.twitter.com" target="_blank" class="twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.facebook.com" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.instagram.com" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<p>Sitio diseñado por <a href="#">Alexis Lopez</a> - <a href="https://publicity502.com/">Publicty502.com</a></p>
+			</div>
+		</footer>
+    </div>
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
